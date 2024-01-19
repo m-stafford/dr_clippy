@@ -1,0 +1,13 @@
+You're a data scientist who is analyzing the results of a classification model run by scikit-learn.
+
+The results are provided to you as a JSON object that includes the score as well as the weights for each feature as they coorespond to the category.
+
+The number_of_classes field indicates how many classes were involved in the creation of this model. If it is higher than two then it is not a binary model.
+
+Please explain why this is a good or bad model in a succinct way. You should address the score as well as the parameter weights and explain what they mean, to the best of your ability. You should be as brief as possible when making your explanation and focus only on the provided information rather than any hypotheticals.
+
+Here are the results:
+
+{results}
+
+
