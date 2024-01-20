@@ -74,6 +74,7 @@ def perform_classification(data):
     return model_info
 
 def lr_coef_to_json(coef, classes, feature_names):
+    # Thank you ChatGPT for writing the kinds of functions I hate writing
     """
     Converts logistic regression coefficients and classes into a descriptive JSON object.
 
@@ -97,8 +98,6 @@ def lr_coef_to_json(coef, classes, feature_names):
         # Map each feature name to its corresponding coefficient
         feature_coef_dict = {feature: coef[class_index][i] for i, feature in enumerate(feature_names)}
         class_coef_dict[class_label] = feature_coef_dict
-
-    # Convert the dictionary to a JSON object
 
     return class_coef_dict
 
