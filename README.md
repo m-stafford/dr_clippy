@@ -1,4 +1,6 @@
 # Dr Clippy
+![image](https://github.com/m-stafford/dr_clippy/assets/1482777/dd2ba029-f986-4552-9b9f-a92eaf713747)
+
 
 ## Overview
 This is a simple toy that replaces acts as an aid to the conversation chain between a decision maker and a data analyst. The idea is that you can ask Dr Clippy to do some simple classification modeling on top of voter data and it will:
